@@ -6163,6 +6163,42 @@ img {
   width: 100%;
 }
 
+footer {
+  background-color: #3676BB;
+}
+
+footer .fp1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: #A5ACC6;
+  padding: 50px 0;
+}
+
+footer .fp1 .iconsFtr {
+  width: 20%;
+}
+
+footer .fp1 .iconsFtr ul {
+  display: flex;
+  list-style: none;
+  font-size: 40px;
+  justify-content: space-evenly;
+}
+
+footer .fp1 .iconsFtr ul li i {
+  color: #5E91C9;
+}
+
+footer .fp2 {
+  display: flex;
+  justify-content: center;
+  background-color: #363B47;
+  padding: 50px;
+  color: #87969E;
+}
+
 section {
   background-color: #EFEFF1;
 }
@@ -6269,7 +6305,7 @@ section .sect3 .clr {
   display: flex;
   justify-content: space-evenly;
   width: 55%;
-  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 section .sect3 .clr .clrIn {
