@@ -1,6 +1,6 @@
-nav {
-  color: #222222;
-  margin: 10px;
+@font-face {
+  font-family: "Lato";
+  src: url("../font/Lato-Regular.ttf");
 }
 
 /*!
@@ -6125,4 +6125,173 @@ readers do not read off random characters that represent icons */
 .far {
   font-family: 'Font Awesome 5 Free';
   font-weight: 400;
+}
+
+body {
+  margin: 0;
+  font-family: lato;
+}
+
+nav {
+  background-color: #363B47;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  width: 30%;
+  justify-content: space-between;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+nav span {
+  font-size: 25px;
+}
+
+img {
+  width: 100%;
+}
+
+section {
+  background-color: #EFEFF1;
+}
+
+section .sect1 {
+  display: flex;
+}
+
+section .sect1 .biteM {
+  padding: 50px;
+  background-color: #E8E6E0;
+  font-size: 35px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  color: #7A848D;
+}
+
+section .sect1 .biteM .simp {
+  font-weight: bold;
+}
+
+section .sect1 .biteM .complx {
+  font-weight: bold;
+  color: #26A2CC;
+}
+
+section .sect1 .biteM .buzz {
+  margin-top: 20px;
+}
+
+section .sect1 .bite {
+  background-color: #e8e6e0;
+  padding: 0px 150px;
+}
+
+section .sect2 {
+  display: flex;
+  margin: 50px 150px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+section .sect2 .card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 15%;
+  text-align: center;
+  background-color: #E2E0E0;
+  padding: 20px 15px 40px 15px;
+  border: 1px;
+  border-radius: 10px;
+}
+
+section .sect2 .card i {
+  font-size: 25px;
+  border: #ffffff;
+  background-color: #ffffff;
+  border-radius: 100%;
+  padding: 12px;
+  color: #3676BB;
+}
+
+section .sect2 .card h1 {
+  font-size: 20px;
+  color: #7A828B;
+}
+
+section .sect2 .card span {
+  color: #26A2CC;
+}
+
+section .sect2 .card p {
+  color: #7E7E9E;
+}
+
+section .sect3 {
+  display: flex;
+}
+
+section .sect3 .recW {
+  margin: 50px 150px;
+  width: 21%;
+}
+
+section .sect3 .recW p {
+  color: #B0A9AA;
+}
+
+section .sect3 .recW p:nth-of-type(2) {
+  color: #7A7A8D;
+}
+
+section .sect3 .recW button {
+  border: 1px;
+  border-radius: 3px;
+  padding: 15px;
+  background-color: #26A2CC;
+  color: white;
+}
+
+section .sect3 .clr {
+  display: flex;
+  justify-content: space-evenly;
+  width: 55%;
+  margin-top: 50px;
+}
+
+section .sect3 .clr .clrIn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #38485F;
+  border: 1px;
+  border-radius: 10px;
+  margin-left: 20px;
+  padding-bottom: 20px;
+  height: 100%;
+  width: 30%;
+  text-align: center;
+}
+
+section .sect3 .clr .clrIn h2 {
+  color: #D1D3D8;
+}
+
+section .sect3 .clr .clrIn span {
+  color: #87969E;
+  padding-left: 20px;
+  padding-right: 20px;
 }
